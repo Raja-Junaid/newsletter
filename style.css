@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(Background.png);
+  font-family: sans-serif;
+}
+
+article {
+  position: absolute;
+  top: 100px;
+  left: 480px;
+}
+
+.header {
+  position: relative;
+}
+
+.image {
+  background-color: rgb(51, 51, 230);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h2 {
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  top: 56px;
+  left: 90px;
+  text-align: center;
+}
+
+/*---------------- Content here --------------------*/
+
+.content {
+  width: 430px;
+  height: 322px;
+  margin-top: -5px;
+  background-color: white;
+  border-end-end-radius: 15px;
+  border-end-start-radius: 15px;
+}
+
+.first-para {
+  word-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(71, 82, 67);
+}
+
+/*--- Email Section ----*/
+
+.email {
+  margin-top: 25px;
+  margin-left: 22px;
+  padding: 12px 5px;
+  padding-left: 75px;
+  border-radius: 5px;
+  background-color: rgba(243, 239, 236, 0.788);
+  border: 1px solid rgb(233, 229, 225);
+}
+
+button {
+  margin-left: 5px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgb(51, 51, 230);
+}
+
+.spam {
+  color: rgb(158, 157, 157);
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+span {
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 18px;
+  color: #222;
+  letter-spacing: .5px;
+}
+
+.foot {
+  text-align: center;
+  margin: 17px 20px;
+  color: #555;
+  font-size: 15px;
+  letter-spacing: .5px;
+}
